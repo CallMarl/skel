@@ -1,0 +1,4 @@
+pwd=`dirname $0`
+
+alias cleaner="sh $pwd/tools/cleaner.sh"
+#alias rm='mv --verbose -f --backup=numbered --target-directory ~/.Trash/'
