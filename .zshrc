@@ -3704,6 +3704,8 @@ zrclocal
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 filepath=`readlink -f $HOME/.zshrc`
 dirpath=`dirname $filepath`
 
